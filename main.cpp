@@ -6,11 +6,11 @@
 #include <time.h>
 #include <queue>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
 using namespace std;
 
 struct Nodo{
-	int bal;
+	int bal;//VALOR A TENER EN CUENTA PARA EL ARBOL AVL
 	int dato;
 	Nodo *izq;
 	Nodo *der;
